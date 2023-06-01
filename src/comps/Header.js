@@ -8,9 +8,10 @@ export function Header() {
     const [expanded, setExpanded] = useState(false)
 
     return (
-        <header className="bg-black w-max h-max">
-            <div className="inline-flex py-[2rem] px-[8rem] space-x-[6rem] items-center justify-center relative">
-                <div className="flex text-slate-100 text-[2rem] space-x-2">
+        <header className="bg-black w-max h-max mx-auto">
+            
+            <div className="inline-flex py-[2rem]  space-x-[7rem]  items-center justify-center relative">
+                <div className="flex text-slate-100 text-[2rem] ">
                     
                     <Image src={laperIcon} alt="Laper Icon" className="w-[4rem] h-[4rem]" /><label className="flex items-center ">Laper</label>
                 </div>
@@ -33,6 +34,11 @@ export function Header() {
             </div>
             
         </div>
+
+
+
+            
+            
         
         
 
