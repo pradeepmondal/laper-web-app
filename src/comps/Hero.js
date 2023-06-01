@@ -11,7 +11,7 @@ export function Hero() {
                 <div className="grid items-center grid-cols-1 gap-y-12 lg:grid-cols-2 gap-x-16">
                     <div>
                         <h1 className="text-4xl font-normal text-white sm:text-5xl lg:text-6xl xl:text-7xl">
-                            Connecting Devs with Employers
+                            Connecting Devs with You
                         </h1>
                         <p className="mt-4 text-lg font-normal text-gray-400 sm:mt-8">
                         Stuck at a Problem? Or unable to decide what to do. Just post a request and our experts will get back to you in no time.
