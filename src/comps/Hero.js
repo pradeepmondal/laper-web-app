@@ -5,6 +5,7 @@ import Image from "next/image"
 import heroSvg from '@/assets/hero.svg'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import ExpIntModal from '@/comps/ExpIntModal'
 
 
 export function Hero() {
@@ -16,6 +17,7 @@ export function Hero() {
 
     return (
         <section className="relative pt-32 overflow-hidden bg-black sm:pb-16 lg:pb-20 xl:pb-12 ">
+            <ExpIntModal />
             <div className="px-4 mx-auto relativea sm:px-6 lg:px-8 max-w-7xl">
                 <div className="grid items-center grid-cols-1 gap-y-12 lg:grid-cols-2 gap-x-16">
                     <div data-aos = "fade-in" data-aos-delay="500" data-aos-duration="1700">
@@ -25,7 +27,7 @@ export function Hero() {
                         <p className="mt-4 text-lg font-normal text-gray-400 sm:mt-8">
                         Stuck at a Problem? Or unable to decide what to do. Just post a request and our experts will get back to you in no time.
                         </p>
-
+                        
                         <form
                             action="#"
                             method="POST"
