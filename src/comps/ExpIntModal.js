@@ -1,15 +1,34 @@
 "use client"
 
-import React, { useState } from "react"
+import React, { useEffect, useState, useReducer} from "react"
+import {MdClose} from 'react-icons/md'
+import Header from '@/comps/Header'
 
 export default function ExpIntModal({show}) {
 
-    if(!show){
+const [showModal, setShowModal] = useState(show)
+
+useEffect(() => {
+    setShowModal(show)
+}, [show])
+    
+
+
+    
+    
+    console.log(showModal)
+    
+
+    
+
+
+
+    if(!showModal){
         return null
     }
     else{
-        return <div className="fixed backdrop-blur-sm z-10 w-screen h-[100vh] ">
-            <div className=" fixed drop-shadow-[40 rem] z-20 my-[7rem] ml-[5em] mr-[5em]  w-4/5 h-[70vh] 2xl:max-w-[69%] border-purple-900 border-16 bg-purple-800/[98%]  rounded-2xl shadow-lg shadow-purple-400/60 ">
+        return <div className="fixed backdrop-blur-sm z-20  sm:w-screen h-[100vh] ">
+            <div className="flex flex-col sm:fixed drop-shadow-[40 rem] mx-auto  sm:ml-[3rem] my-[7rem] lg:my-[7rem] lg:ml-[5em] lg:mr-[5em] w-screen sm:w-1/2 lg:w-4/5 lg:h-[70vh] 2xl:max-w-[69%] border-purple-900 border-16 bg-purple-800/[98%]  rounded-2xl shadow-lg shadow-purple-400/60 ">
                 <h1 className="flex mt-24 max-w-fit justify-center mx-auto text-slate-100/60 text-[3rem]">Express Interest</h1>
 
                 <div className="flex flex-row mt-[3rem] justify-center space-x-8 ">
@@ -35,6 +54,8 @@ export default function ExpIntModal({show}) {
             
             
             </div>
+
+            <button onClick={() => {setShowModal(!showModal) }} className="text-slate-100 text-[2rem] mt-[5rem] ml-[77rem] "><MdClose /></button>
             
             </div>
     }

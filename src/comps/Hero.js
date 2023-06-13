@@ -16,15 +16,17 @@ export function Hero() {
     }, [])
 
     return (
-        <section className="relative pt-32 overflow-hidden bg-black sm:pb-16 lg:pb-20 xl:pb-12 ">
+        <section className="relative pt-16 sm:pt-32 overflow-hidden bg-black sm:pb-16 lg:pb-20 xl:pb-12 z-10 ">
             <ExpIntModal />
-            <div className="px-4 mx-auto relativea sm:px-6 lg:px-8 max-w-7xl">
+            <div className="px-8 mx-auto relative sm:px-6 lg:px-8 max-w-7xl">
                 <div className="grid items-center grid-cols-1 gap-y-12 lg:grid-cols-2 gap-x-16">
                     <div data-aos = "fade-in" data-aos-delay="500" data-aos-duration="1700">
-                        <h1 className="text-4xl font-normal text-white sm:text-5xl lg:text-6xl xl:text-7xl">
+
+                        <div className="px-[2.2rem] sm:px-[0rem]">
+                        <h1 className="text-4xl font-normal text-white sm:text-5xl lg:text-6xl xl:text-7xl max-w-fit mx-auto">
                             Connecting Devs with You
                         </h1>
-                        <p className="mt-4 text-lg font-normal text-gray-400 sm:mt-8">
+                        <p className="mt-4 text-lg font-normal text-gray-400 sm:mt-8 ">
                         Stuck at a Problem? Or unable to decide what to do. Just post a request and our experts will get back to you in no time.
                         </p>
                         
@@ -71,10 +73,15 @@ export function Hero() {
                             </div>
                         </form>
 
+
+
+                        </div>
+                        
+
                         
                     </div>
 
-                    <div className="relative bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-purple-800 via-black to-black" data-aos = "fade-in" data-aos-delay="800" data-aos-duration="2200">
+                    <div className="relative bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-purple-800 via-black to-black order-first sm:order-last px-[2.2rem] sm:px-[0rem]" data-aos = "fade-in" data-aos-delay="800" data-aos-duration="2200" >
                         
                         <Image src={heroSvg} alt="Hero Svg" />
 
