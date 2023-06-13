@@ -14,16 +14,16 @@ export function SubHero() {
     }, [])
 
     return (
-        <section className="py-12 bg-black sm:py-16 lg:py-20 xl:py-12">
+        <section className="py-8 bg-black sm:py-16 lg:py-20 xl:py-12 z-10">
             <div className="px-4 mx-auto sm:px-6 lg:px-8 max-w-7xl">
-                <div className="grid items-center max-w-md grid-cols-1 mx-auto lg:max-w-none lg:mx-0 lg:grid-cols-2 gap-x-24 xl:gap-x-48 gap-y-12">
+                <div className="grid items-center max-w-md grid-cols-1 mx-auto lg:max-w-none lg:mx-0 lg:grid-cols-2 gap-x-24 xl:gap-x-48 gap-y-4">
                     
 
                     <div className="relative" data-aos = "fade-in" data-aos-delay="800" data-aos-duration="2700">
                         <Image src={sbHeroSvg} alt="Sub Hero Svg" />
                     </div>
 
-                    <div data-aos = "fade-in" data-aos-delay="400" data-aos-duration="1000">
+                    <div data-aos = "fade-in" data-aos-delay="400" data-aos-duration="1000" >
                         <h2 className="text-[3rem] font-normal text-white sm:text-2xl lg:text-3xl xl:text-5xl">
                         Empowering Coders through Expert Assistance.
                         </h2>
