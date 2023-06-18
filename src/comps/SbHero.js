@@ -14,7 +14,7 @@ export function SubHero() {
     }, [])
 
     return (
-        <section className="py-8 bg-black sm:py-16 lg:py-20 xl:py-12 z-10">
+        <section id="about" className="py-8 bg-black sm:py-16 lg:py-20 xl:py-12 z-10">
             <div className="px-4 mx-auto sm:px-6 lg:px-8 max-w-7xl">
                 <div className="grid items-center max-w-md grid-cols-1 mx-auto lg:max-w-none lg:mx-0 lg:grid-cols-2 gap-x-24 xl:gap-x-48 gap-y-4">
                     
@@ -36,7 +36,7 @@ export function SubHero() {
                         <p className="mt-8 text-lg font-normal text-gray-400">
                         So why wait? Download Laper today and start getting the answers you need to take your coding skills to the next level.
                         </p>
-                        <button className="text-[1rem] text-green-950 mt-8 bg-green-500 rounded-2xl p-2">Download on Play Store </button>
+                        <button className="text-[1.2rem] text-white font-semibold mt-8 bg-green-500 rounded-2xl py-4 px-6">Download on Play Store </button>
                     </div>
                 </div>
             </div>
