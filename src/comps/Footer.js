@@ -13,7 +13,7 @@ const Footer = () => {
 
 
 
-                <div data-aos="fade-in" data-aos-delay="200" data-aos-duration="400" >
+                <div data-aos="fade-in" data-aos-delay="200" data-aos-duration="1700" >
                     <h2 className="text-5xl  font-semibold text-white xl:text-5xl sm:text-center">
                         How Laper Works
                     </h2>
@@ -24,7 +24,7 @@ const Footer = () => {
 
                 <div className={`py-14 flex flex-col gap-y-6 md:flex-row sm:gap-x-14 relative  items-start `}>
 
-                    <div data-aos="fade-in" data-aos-delay="800" data-aos-duration="800"
+                    <div data-aos="fade-in" data-aos-delay="600" data-aos-duration="1700"
                         className='flex-col sm:flex sm:flex-row md:flex-col justify-center items-center'
                     >
                         <div>
@@ -39,7 +39,7 @@ const Footer = () => {
                         <Image src={'/Post.svg'} height={300} width={300} alt='post your question' />
                     </div>
 
-                    <div data-aos="fade-in" data-aos-delay="800" data-aos-duration="800"
+                    <div data-aos="fade-in" data-aos-delay="1000" data-aos-duration="1700"
                         className='flex-col sm:flex md:flex-col justify-center items-center sm:flex-row'
                     >
                         <div>
@@ -55,7 +55,7 @@ const Footer = () => {
 
                     </div>
 
-                    <div data-aos="fade-in" data-aos-delay="1000" data-aos-duration="800"
+                    <div data-aos="fade-in" data-aos-delay="1400" data-aos-duration="1700"
                         className='flex-col sm:flex md:flex-col justify-center items-center sm:flex-row'
                     >
                         <div>
