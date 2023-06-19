@@ -2,9 +2,10 @@
 
 import React, { useEffect, useState } from "react"
 import Image from "next/image"
-import sbHeroSvg from '@/assets/sbHero.svg'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+
+import sbHeroSvg from '@/assets/sbHero.svg'
 
 export function SubHero() {
 
