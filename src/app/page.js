@@ -8,7 +8,7 @@ export default function Home() {
 
 
   return (
-    <main>
+    <main className='box-border'>
       <Hero />
       <SubHero />
       <Footer />
