@@ -15,7 +15,7 @@ export function SubHero() {
     }, [])
 
     return (
-        <section id="about" className="py-8 bg-black sm:py-16 lg:py-20 xl:py-12 z-10">
+        <section id="about" className="py-8 bg-black sm:py-16 lg:py-20 xl:py-12 z-10 bg-[url('/about-edit.svg')] bg-center bg-cover bg-no-repeat">
             <div className="px-4 mx-auto sm:px-6 lg:px-8 max-w-7xl">
                 <div className="grid items-center max-w-md grid-cols-1 mx-auto lg:max-w-none lg:mx-0 lg:grid-cols-2 gap-x-24 xl:gap-x-48 gap-y-4">
                     

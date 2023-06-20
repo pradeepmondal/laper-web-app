@@ -26,9 +26,9 @@ export function Header() {
 
 
     return (
-        <header className=" backdrop-blur-sm w-screen h-max sticky  top-0 z-30 ">
+        <header className=" backdrop-blur-lg w-screen h-max sticky  top-0 z-30 ">
             <ExpIntModal show={showModal} />
-            <div className="flex  px-8 w-screen justify-between items-center py-2  space-y-2 sm:py-[2rem] mb-2 mx-auto  ">
+            <div className="flex  px-8 w-screen justify-between  items-center py-2  space-y-2 sm:space-x-[8rem] sm:py-[1rem] mb-2 mx-auto sm:mb-[3rem] ">
 
                 <div className="flex text-slate-100 text-[2rem] items-center justify-between">
 
