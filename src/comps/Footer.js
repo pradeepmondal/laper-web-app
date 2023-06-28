@@ -8,13 +8,13 @@ import Image from 'next/image';
 const Footer = () => {
 
     return (
-        <section id="howItWorks" className="py-8 bg-black sm:py-16 lg:py-20 xl:py-12 z-10 bg-[url('/bgHowWorks.svg')] bg-center bg-cover bg-no-repeat">
+        <section id="howItWorks" className="py-8 bg-black sm:py-16 lg:py-20 xl:py-12 h-[100vh] z-10 bg-[url('/bgHowWorks.svg')] bg-center bg-cover bg-no-repeat">
             <div className="px-4 mx-auto sm:px-6 lg:px-8 max-w-7xl">
 
 
 
                 <div data-aos="fade-in" data-aos-delay="200" data-aos-duration="1700" >
-                    <h2 className="text-5xl  font-semibold text-white xl:text-5xl sm:text-center">
+                    <h2 className="text-5xl mt-16 font-semibold text-white xl:text-5xl sm:text-center">
                         How Laper Works
                     </h2>
                     <p className="mt-4 text-lg font-sm text-gray-400 sm:text-center ">
