@@ -26,7 +26,7 @@ export function Header() {
 
 
     return (
-        <header className=" backdrop-blur-lg w-screen h-max sticky  top-0 z-30 ">
+        <header className="fixed backdrop-blur-lg w-screen h-max  sm:h-[5rem] z-10 ">
             <ExpIntModal show={showModal} />
             <div className="flex  px-8 w-screen justify-between  items-center py-2  space-y-2 sm:space-x-[8rem] sm:py-[1rem] mb-2 mx-auto sm:mb-[3rem] ">
 
@@ -69,15 +69,15 @@ export function Header() {
 
                     <div className="relative  sm:items-center sm:justify-center sm:inline-flex sm:group">
                         <div className="absolute transition-all duration-200 rounded-[2rem] sm:rounded-full -inset-px bg-gradient-to-r from-cyan-500 to-purple-500 group-hover:shadow-lg "></div>
-                        <button
+                        <Link href={`#expInt`}
 
-                            onClick={() => { setShowModal(!showModal) }}
+                            onClick={handleScroll}
                             title=""
                             className="relative inline-flex items-center justify-center px-6 py-2 text-base font-normal text-white bg-black hover:bg-gradient-to-r hover:from-cyan-500 hover:to-purple-500 hover:scale-110   border border-transparent rounded-full duration-300 transition-all"
                         >
                             {" "}
                             Express Interest{" "}
-                        </button>
+                        </Link>
                     </div>
 
                 </div>
@@ -115,15 +115,15 @@ export function Header() {
 
                     <div className="relative  sm:items-center sm:justify-center sm:inline-flex sm:group">
                         <div className="absolute transition-all duration-200 rounded-[2rem] sm:rounded-full -inset-px bg-gradient-to-r from-cyan-500 to-purple-500 group-hover:shadow-lg group-hover:shadow-cyan-500/50 "></div>
-                        <button
+                        <Link href={`#expInt`}
 
-                            onClick={() => { setShowModal(!showModal) }}
+                            onClick={handleScroll}
                             title=""
                             className="relative inline-flex items-center justify-center px-6 py-2 text-base font-normal text-white bg-black border border-transparent rounded-full"
                         >
                             {" "}
                             Express Interest{" "}
-                        </button>
+                        </Link>
                     </div>
 
                 </div>}

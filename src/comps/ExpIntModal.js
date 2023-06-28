@@ -27,7 +27,8 @@ useEffect(() => {
         return null
     }
     else{
-        return <div className="fixed backdrop-blur-sm z-20  sm:w-screen h-[100vh] ">
+        return <div className="fixed backdrop-blur-lg w-screen h-[100vh] z-20">
+            <div className="">
             <div className="flex flex-col sm:fixed drop-shadow-[40 rem] mx-auto  sm:ml-[3rem] my-[7rem] lg:my-[7rem] lg:ml-[5em] lg:mr-[5em] w-screen sm:w-1/2 lg:w-4/5 lg:h-[70vh] 2xl:max-w-[69%] border-purple-900 border-16 bg-purple-800/[98%]  rounded-2xl shadow-lg shadow-purple-400/60 ">
                 <h1 className="flex mt-24 max-w-fit justify-center mx-auto text-slate-100/60 text-[3rem]">Express Interest</h1>
 
@@ -58,6 +59,11 @@ useEffect(() => {
             <button onClick={() => {setShowModal(!showModal) }} className="text-slate-100 text-[2rem] mt-[5rem] ml-[77rem] "><MdClose /></button>
             
             </div>
+
+
+            </div>
+        
+        
     }
 
 }
