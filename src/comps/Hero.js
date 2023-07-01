@@ -22,7 +22,7 @@ export function Hero() {
     }, [])
 
     return (
-        <section id="home" className="relative  overflow-hidden bg-black sm:pt-[17rem] sm:pb-16 lg:pb-20 xl:pb-12  h-[100vh] mt-14">
+        <section id="home" className="relative  overflow-hidden bg-black  sm:pb-16 lg:pb-20 xl:pb-12   my-24 sm:mt-44">
 
             <div className="px-8 mx-auto relative sm:px-6 lg:px-8 max-w-7xl">
                 <div className="grid items-center grid-cols-1 gap-y-12 lg:grid-cols-2 gap-x-16">
