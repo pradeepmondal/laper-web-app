@@ -12,9 +12,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en" className='box-border' >
-      <body >
-        
-
+      <body className=' container sm:mx-auto px-2'>
         {children}
       </body>
     </html>

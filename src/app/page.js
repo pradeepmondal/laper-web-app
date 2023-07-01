@@ -5,6 +5,7 @@ import { SubHero } from '@/comps/SbHero'
 import Footer from '@/comps/Footer'
 import About from '@/comps/About'
 import ExpInt from '@/comps/ExpInt'
+import MobileNav from '@/comps/MobileNav'
 
 export default function Home() {
 
@@ -12,12 +13,13 @@ export default function Home() {
 
   return (
     <main className=''>
+      {/* <MobileNav /> */}
       <Header />
       <Hero />
-      <SubHero />
+      {/* <SubHero />
       <About />
       <Footer />
-      <ExpInt />
+      <ExpInt />  */}
 
 
 
