@@ -17,7 +17,7 @@ export default function Home() {
       <SubHero />
       <About />
       <Footer />
-      <ExpInt />
+      <ExpInt /> 
 
 
 
